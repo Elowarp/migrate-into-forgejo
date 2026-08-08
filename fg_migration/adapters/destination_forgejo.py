@@ -26,7 +26,7 @@ from fg_migration.core.canonical_types import (CanonicalOrganization, CanonicalR
                                                CanonicalRepoMembership,
                                                CanonicalRepoOwner, CanonicalSystemUser)
 from fg_migration.core.config_types import ForgejoConfig
-from fg_migration.adapters.forgeo_types import (ApiPaginator, ForgejoPermission,
+from fg_migration.adapters.forgejo_types import (ApiPaginator, ForgejoPermission,
                                                 ForgejoRepositoryRole,
                                                 ForgejoRolePermissionDefinition,
                                                 ForgejoTeamDefinition, ForgejoTeamRoleBuilder,

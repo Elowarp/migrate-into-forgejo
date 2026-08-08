@@ -11,7 +11,7 @@ import yaml
 
 from fg_migration.adapters.gitlab_types import GitLabApiPaginator, IterativeFetchError
 from fg_migration.utils import fg_print
-from fg_migration.adapters.destination_forgjo import ForgejoRepositoryRole
+from fg_migration.adapters.destination_forgejo import ForgejoRepositoryRole
 from fg_migration.core.migration_source_type import MigrationSource
 from fg_migration.core.canonical_types import (CanonicalGpgKey, CanonicalOrganizationMembership,
                                                CanonicalKey, CanonicalOrganization,

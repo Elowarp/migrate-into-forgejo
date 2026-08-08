@@ -26,7 +26,7 @@ from click import confirm
 from fg_migration.utils import fg_print
 from fg_migration.core.config_types import ForgejoConfig
 from fg_migration.services.fg_purger import ForgejoPurger
-from fg_migration.adapters.forgeo_types import ForgejoApiBuilder
+from fg_migration.adapters.forgejo_types import ForgejoApiBuilder
 
 SCRIPT_VERSION = "1.0.0"
 
