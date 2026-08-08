@@ -429,7 +429,7 @@ class GitLabMigrationSource(MigrationSource):
                 for sub_group in self._iter_all_sub_groups_of_group(group=group):
                     sub_hierarchy = copy(hierarchy)
                     sub_hierarchy.append(HierarchyNode(
-                                                name=sub_hierarchy.path,
+                                                name=sub_group.path,
                                                 relation=HierarchyNode.RelationEnum.SUB))
                     sub_group_id = sub_group.get_id()
                     sub_group = self.gitlab_api.groups.get(sub_group_id)
