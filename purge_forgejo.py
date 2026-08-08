@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 """
-Usage: purge_forgejo.py [--debug] [--orgs-repos] [--orgs] [--user-repos] [--current-repos]
+Usage: purge_forgejo.py [--debug] [--orgs-repos] [--orgs] [--user-repos] [--current-repos] [--users] [--all]
        purge_forgejo.py --all [--purge]
        purge_forgejo.py --users [--purge]
        purge_forgejo.py --help
