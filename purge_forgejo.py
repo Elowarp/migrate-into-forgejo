@@ -87,12 +87,12 @@ def main() -> int:
     try:
         if args["--orgs-repos"] or args["--all"]:
             purger.del_orgs_repos()
+        if args["--orgs"] or args["--all"]:
+            purger.del_orgs()
         if args["--user-repos"] or args["--all"]:
             purger.del_all_user_repos()
         if args["--current-repos"] or args["--all"]:
             purger.del_current_user_repos()
-        if args["--orgs"] or args["--all"]:
-            purger.del_orgs()
         if args["--users"] or args["--all"]:
             purge_option = bool(args["--purge"])
             purger.del_users(purge=purge_option)
