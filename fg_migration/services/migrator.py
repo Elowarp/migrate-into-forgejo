@@ -335,7 +335,7 @@ class Migrator:
                                         issues=True,
                                         labels=True,
                                         milestones=True,
-                                        mirror=False,
+                                        mirror=True,
                                         pull_requests=True,
                                         releases=True,
                                         wiki=True,
